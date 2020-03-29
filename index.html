@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+
+        <link rel="stylesheet" type="text/css"
+        href="stylesheet.css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="media/site-logo.svg">
+
+        <script src="https://kit.fontawesome.com/7ac4bb41bf.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="flex-box-between">
+        <header>
+            <div id="nav-bar" class="flex-box-between">
+                
+                <div id="site-logo">
+                    <a href="#">
+                        <div id="site-logo-inner-div">
+
+                        </div>
+                    </a>
+                </div>
+
+                <div id="nav-bar-right" class="flex-box-between">
+                    <div id="search-bar">
+                        <div class="flex-box-start">
+                            <div id="search-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+        
+                            <input type="text" id="search-box" placeholder="Search">
+                            <div id="mic-icon">
+                                <a href="#"><i class="fas fa-microphone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="notification-button">
+                        <a href="#"><i class="fas fa-bell"></i></a>
+                    </div>
+
+                    <div id="profile-picture">
+                    
+                    </div>
+                </div>   
+            </div>
+        </header>
+
+        <main>
+            <section id="carousel">
+                <a href="#"><div id="carousel-image-1"></div></a>
+                <a href="#"><div id="carousel-image-2"></div></a>
+                <a href="#"><div id="carousel-image-3"></div></a>
+            </section>
+
+            <h2>Latest Releases</h2>
+
+            <section id="latest-releases" class="flex-box-between">
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+            </section>
+
+            <h2 class="section-heading">Popular Artists</h2>
+
+            <section id="popular-artists" class="flex-box-between">
+                <div class="artist-thumbnail">
+                      <div id ="ed-sheeran-image" class="artist-thumbnail-image">
+                        <a href="">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                      </div>  
+
+                      <h3>Ed Sheeran</h3>
+                </div>
+
+                <div class="artist-thumbnail">
+                    <div id ="coldplay-image" class="artist-thumbnail-image">
+                        <a href="#coldplay-page">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>  
+
+                    <h3>ColdPlay</h3>
+                </div>
+
+                <div class="artist-thumbnail">
+                    <div id ="zayn-image" class="artist-thumbnail-image">
+                        <a href="#coldplay-page">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>  
+
+                    <h3>Zayn</h3>
+                </div>
+
+                <div class="artist-thumbnail">
+                    <div id ="charlie-puth-image" class="artist-thumbnail-image">
+                        <a href="#coldplay-page">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>  
+
+                    <h3>Charlie Puth</h3>
+                </div>
+
+                <div class="artist-thumbnail">
+                    <div id ="imagine-dragons-image" class="artist-thumbnail-image">
+                        <a href="#coldplay-page">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>  
+
+                    <h3>Imagine Dragons</h3>
+                </div>
+
+                <div class="artist-thumbnail">
+                    <div id ="bruno-mars-image" class="artist-thumbnail-image">
+                        <a href="#coldplay-page">
+                            <div class="artist-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>  
+
+                    <h3>Bruno Mars</h3>
+                </div>
+            </section>
+
+            <section id="song-categories" class="flex-box-between">
+                <div class="song-category-thumbnail">
+                    <a href="#">
+                        <div id="category-1" class="category-thumbnail-inner-div">
+                            <h1>Party</h1>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="song-category-thumbnail">
+                    <a href="#">
+                        <div id="category-2" class="category-thumbnail-inner-div">
+                            <h1>Electronic</h1>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="song-category-thumbnail">
+                    <a href="#">
+                        <div id="category-3" class="category-thumbnail-inner-div">
+                            <h1>Road Trip</h1>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <h2 class="section-heading">Latest English</h2>
+
+            <section id="latest-english" class="flex-box-between">
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail-2">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info-bottom">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+                </div>
+            </section>
+
+            <h2 class="section-heading">Favourites</h2>
+
+            <section id="latest-hindi" class="flex-box-between">
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        
+                        <div id ="song-side-popup" class="song-options-popup">
+                            <div class="song-options-popup-option">
+                                <i class="fas fa-play" style="margin-left: 15px;"></i>
+                                <h1 style="display:inline-block; font-size: 13px; margin-left: 10px;">Play Now</h3>
+                            </div>
+
+                            <div class="song-options-popup-option second-option">
+                                <div class="song-options-popup-option">
+                                    <i class="fas fa-plus" style="margin-left: 15px;"></i>
+                                    <h1 style="display:inline-block; font-size: 13px; margin-left: 10px;">Add To Queue</h3>
+                                </div>
+                            </div>
+
+                            <div class="song-options-popup-option">
+                                <div class="song-options-popup-option">
+                                    <i class="fas fa-info-circle" style="margin-left: 15px;"></i>
+                                    <h1 style="display:inline-block; font-size: 13px; margin-left: 10px;">Get Info</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+
+                <div class="song-thumbnail">
+                    <a href="#play-bar-1">
+                        <div class="song-icon">
+                            <div class="song-hover">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="song-info">
+                        <h3>Onism</h3>
+                        <h5>AUG 11, 2017</h5>
+                    </div>
+
+                    <div class="song-options">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h5>4:44</h5>
+                    </div>
+                </div>
+            </section>
+
+            <div id="coldplay-page" class="artist-page">
+                <div class="artist-info">
+                    <div id="coldplay-artist-image" class="artist-page-image">
+
+                    </div>
+
+                    <div class="artist-description">
+                        <h1>ColdPlay</h1>
+
+                        <h4 style="color:grey;">British Band</h4>
+
+                        <h5 style="color: grey; font-weight: 300; font-size:15px;">ColdPlay is a British music bang that has enjoyed continuous success since their inception in 1996 through their intelligent and soulful songs. The band members are Chris Martin (lead vocals), Jonny Buckland (lead guitar), Guy Berryman (bass guitar) and Will Champion (drums).</h5>
+                        
+                        <a href="#play-bar-2">
+                            <div class="play-all-button">
+                                <h3>Play All</h3>
+                            </div>
+                        </a>
+
+                        <h5 style="color: grey; font-weight: 300; font-size:15px;">247 Tracks | 148 Albums</h5>
+                    </div>
+
+                </div>
+
+                <div class="artist-page-songs">
+                    <div id="aside-songs-list">
+                        <div class="aside-song flex-box-between">
+        
+                            <div class="aside-song-thumbnail-left">
+                                <div class="aside-song-rank">
+                                    <h4>01</h4>
+                                </div>
+            
+                                <div class="aside-song-icon">
+                                    <a href="#play-bar-2">
+                                        <div class="aside-song-hover">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </a>    
+                                </div>
+            
+                                <div class="aside-song-info">
+                                    <h4>Starboy</h3>
+                                    <h5>The Weeknd</h4>
+                                </div>
+                            </div>
+        
+                            <div class="aside-section-thumbnail-right">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+        
+                        <div class="aside-song flex-box-between">
+        
+                            <div class="aside-song-thumbnail-left">
+                                <div class="aside-song-rank">
+                                    <h4>02</h4>
+                                </div>
+            
+                                <div class="aside-song-icon">
+                                    <a href="#play-bar-2">
+                                        <div class="aside-song-hover">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </a> 
+                                </div>
+            
+                                <div class="aside-song-info">
+                                    <h4>Starboy</h3>
+                                    <h5>The Weeknd</h4>
+                                </div>
+                            </div>
+        
+                            <div class="aside-section-thumbnail-right">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+        
+                        <div class="aside-song flex-box-between">
+        
+                            <div class="aside-song-thumbnail-left">
+                                <div class="aside-song-rank">
+                                    <h4>03</h4>
+                                </div>
+            
+                                <div class="aside-song-icon">
+                                    <a href="#play-bar-2">
+                                        <div class="aside-song-hover">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </a> 
+                                </div>
+            
+                                <div class="aside-song-info">
+                                    <h4>Starboy</h3>
+                                    <h5>The Weeknd</h4>
+                                </div>
+                            </div>
+        
+                            <div class="aside-section-thumbnail-right">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+        
+                        <div class="aside-song flex-box-between">
+        
+                            <div class="aside-song-thumbnail-left">
+                                <div class="aside-song-rank">
+                                    <h4>04</h4>
+                                </div>
+            
+                                <div class="aside-song-icon">
+                                    <a href="#play-bar-2">
+                                        <div class="aside-song-hover">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </a> 
+                                </div>
+            
+                                <div class="aside-song-info">
+                                    <h4>Starboy</h3>
+                                    <h5>The Weeknd</h4>
+                                </div>
+                            </div>
+        
+                            <div class="aside-section-thumbnail-right">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+        
+                        <div class="aside-song flex-box-between">
+        
+                            <div class="aside-song-thumbnail-left">
+                                <div class="aside-song-rank">
+                                    <h4>05</h4>
+                                </div>
+            
+                                <div class="aside-song-icon">
+                                    <a href="#play-bar-2">
+                                        <div class="aside-song-hover">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </a> 
+                                </div>
+            
+                                <div class="aside-song-info">
+                                    <h4>Starboy</h3>
+                                    <h5>The Weeknd</h4>
+                                </div>
+                            </div>
+        
+                            <div class="aside-section-thumbnail-right">
+                                <i class="far fa-heart"></i>
+                            </div>
+        
+                            <div class="aside-song flex-box-between">
+        
+                                <div class="aside-song-thumbnail-left">
+                                    <div class="aside-song-rank">
+                                        <h4>06</h4>
+                                    </div>
+                
+                                    <div class="aside-song-icon">
+                                        <a href="#play-bar-2">
+                                            <div class="aside-song-hover">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a> 
+                                    </div>
+                
+                                    <div class="aside-song-info">
+                                        <h4>Starboy</h3>
+                                        <h5>The Weeknd</h4>
+                                    </div>
+                                </div>
+            
+                                <div class="aside-section-thumbnail-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+            
+                            <div class="aside-song flex-box-between">
+            
+                                <div class="aside-song-thumbnail-left">
+                                    <div class="aside-song-rank">
+                                        <h4>07</h4>
+                                    </div>
+                
+                                    <div class="aside-song-icon">
+                                        <a href="#play-bar-2">
+                                            <div class="aside-song-hover">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a> 
+                                    </div>
+                
+                                    <div class="aside-song-info">
+                                        <h4>Starboy</h3>
+                                        <h5>The Weeknd</h4>
+                                    </div>
+                                </div>
+            
+                                <div class="aside-section-thumbnail-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+            
+                            <div class="aside-song flex-box-between">
+            
+                                <div class="aside-song-thumbnail-left">
+                                    <div class="aside-song-rank">
+                                        <h4>08</h4>
+                                    </div>
+                
+                                    <div class="aside-song-icon">
+                                        <a href="#play-bar-2">
+                                            <div class="aside-song-hover">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a> 
+                                    </div>
+                
+                                    <div class="aside-song-info">
+                                        <h4>Starboy</h3>
+                                        <h5>The Weeknd</h4>
+                                    </div>
+                                </div>
+            
+                                <div class="aside-section-thumbnail-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+            
+                            <div class="aside-song flex-box-between">
+            
+                                <div class="aside-song-thumbnail-left">
+                                    <div class="aside-song-rank">
+                                        <h4>09</h4>
+                                    </div>
+                
+                                    <div class="aside-song-icon">
+                                        <a href="#play-bar-2">
+                                            <div class="aside-song-hover">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a> 
+                                    </div>
+            
+                                    <div class="aside-song-info">
+                                        <h4>Starboy</h3>
+                                        <h5>The Weeknd</h4>
+                                    </div>
+                                </div>
+            
+                                <div class="aside-section-thumbnail-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+            
+                            <div class="aside-song flex-box-between">
+            
+                                <div class="aside-song-thumbnail-left">
+                                    <div class="aside-song-rank">
+                                        <h4>10</h4>
+                                    </div>
+                
+                                    <div class="aside-song-icon">
+                                        <a href="#play-bar-2">
+                                            <div class="aside-song-hover">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a> 
+                                    </div>
+                
+                                    <div class="aside-song-info">
+                                        <h4>Starboy</h3>
+                                        <h5>The Weeknd</h4>
+                                    </div>
+                                </div>
+            
+                                <div class="aside-section-thumbnail-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="play-bar-1" class="flex-box-between">
+            <div id="play-bar-left">
+                <div id="play-bar-song-icon">
+
+                </div>
+
+                <div id="play-bar-song-info">
+                    <h4>Onism</h4>
+                    <h5>Arturo Parra</h5>
+                </div>
+
+                <div id="play-bar-song-options">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+            </div>
+
+            <div id="play-bar-controls">
+                <div id="play-bar-controls-buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward" style="margin-left:30px;"></i>
+                    <i class="far fa-pause-circle" style="margin-left:10px; font-size: 30px;"></i>
+                    <i class="fas fa-step-forward" style="margin-left:10px;"></i>
+                    <i class="fas fa-redo-alt" style="margin-left:30px;"></i>
+                </div>
+
+                <div id="play-bar-controls-progress">
+                    <div id="progress-completed">
+
+                    </div>
+                </div>
+
+                <div id="progress-bar-pointer">
+
+                </div>
+            </div>
+
+            <div id="play-bar-right">
+                <div id="play-bar-options">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+
+                <div id="play-bar-volume-slider">
+                    <div id="play-bar-volume-slider-progress">
+                        
+                    </div>
+                </div>
+
+                <div id="play-bar-volume-pointer">
+
+                </div>                
+            </div>
+        </div>
+
+        <div id="play-bar-2" class="flex-box-between">
+            <div id="play-bar-left">
+                <div id="play-bar-song-icon-2">
+
+                </div>
+
+                <div id="play-bar-song-info">
+                    <h4>Starboy</h4>
+                    <h5>The Weeknd</h5>
+                </div>
+
+                <div id="play-bar-song-options">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+            </div>
+
+            <div id="play-bar-controls">
+                <div id="play-bar-controls-buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward" style="margin-left:30px;"></i>
+                    <i class="far fa-pause-circle" style="margin-left:10px; font-size: 30px;"></i>
+                    <i class="fas fa-step-forward" style="margin-left:10px;"></i>
+                    <i class="fas fa-redo-alt" style="margin-left:30px;"></i>
+                </div>
+
+                <div id="play-bar-controls-progress">
+                    <div id="progress-completed">
+
+                    </div>
+                </div>
+
+                <div id="progress-bar-pointer">
+
+                </div>
+            </div>
+
+            <div id="play-bar-right">
+                <div id="play-bar-options">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+
+                <div id="play-bar-volume-slider">
+                    <div id="play-bar-volume-slider-progress">
+                        
+                    </div>
+                </div>
+
+                <div id="play-bar-volume-pointer">
+
+                </div>                
+            </div>
+        </div>
+
+        <aside>
+            <div id="aside-header" style="align-items: baseline;" class="flex-box-between">
+                <h1>Queue</h1>
+
+                <div id="aside-dropdown">
+                    <h3>Queue</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+
+            <div id="aside-songs-list">
+                <div class="aside-song flex-box-between">
+
+                    <div class="aside-song-thumbnail-left">
+                        <div class="aside-song-rank">
+                            <h4>01</h4>
+                        </div>
+    
+                        <div class="aside-song-icon">
+                            <a href="#play-bar-2">
+                                <div class="aside-song-hover">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>    
+                        </div>
+    
+                        <div class="aside-song-info">
+                            <h4>Starboy</h3>
+                            <h5>The Weeknd</h4>
+                        </div>
+                    </div>
+
+                    <div class="aside-section-thumbnail-right">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="aside-song flex-box-between">
+
+                    <div class="aside-song-thumbnail-left">
+                        <div class="aside-song-rank">
+                            <h4>02</h4>
+                        </div>
+    
+                        <div class="aside-song-icon">
+                            <a href="#play-bar-2">
+                                <div class="aside-song-hover">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a> 
+                        </div>
+    
+                        <div class="aside-song-info">
+                            <h4>Starboy</h3>
+                            <h5>The Weeknd</h4>
+                        </div>
+                    </div>
+
+                    <div class="aside-section-thumbnail-right">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="aside-song flex-box-between">
+
+                    <div class="aside-song-thumbnail-left">
+                        <div class="aside-song-rank">
+                            <h4>03</h4>
+                        </div>
+    
+                        <div class="aside-song-icon">
+                            <a href="#play-bar-2">
+                                <div class="aside-song-hover">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a> 
+                        </div>
+    
+                        <div class="aside-song-info">
+                            <h4>Starboy</h3>
+                            <h5>The Weeknd</h4>
+                        </div>
+                    </div>
+
+                    <div class="aside-section-thumbnail-right">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="aside-song flex-box-between">
+
+                    <div class="aside-song-thumbnail-left">
+                        <div class="aside-song-rank">
+                            <h4>04</h4>
+                        </div>
+    
+                        <div class="aside-song-icon">
+                            <a href="#play-bar-2">
+                                <div class="aside-song-hover">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a> 
+                        </div>
+    
+                        <div class="aside-song-info">
+                            <h4>Starboy</h3>
+                            <h5>The Weeknd</h4>
+                        </div>
+                    </div>
+
+                    <div class="aside-section-thumbnail-right">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="aside-song flex-box-between">
+
+                    <div class="aside-song-thumbnail-left">
+                        <div class="aside-song-rank">
+                            <h4>05</h4>
+                        </div>
+    
+                        <div class="aside-song-icon">
+                            <a href="#play-bar-2">
+                                <div class="aside-song-hover">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a> 
+                        </div>
+    
+                        <div class="aside-song-info">
+                            <h4>Starboy</h3>
+                            <h5>The Weeknd</h4>
+                        </div>
+                    </div>
+
+                    <div class="aside-section-thumbnail-right">
+                        <i class="far fa-heart"></i>
+                    </div>
+
+                    <div class="aside-song flex-box-between">
+
+                        <div class="aside-song-thumbnail-left">
+                            <div class="aside-song-rank">
+                                <h4>06</h4>
+                            </div>
+        
+                            <div class="aside-song-icon">
+                                <a href="#play-bar-2">
+                                    <div class="aside-song-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a> 
+                            </div>
+        
+                            <div class="aside-song-info">
+                                <h4>Starboy</h3>
+                                <h5>The Weeknd</h4>
+                            </div>
+                        </div>
+    
+                        <div class="aside-section-thumbnail-right">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+    
+                    <div class="aside-song flex-box-between">
+    
+                        <div class="aside-song-thumbnail-left">
+                            <div class="aside-song-rank">
+                                <h4>07</h4>
+                            </div>
+        
+                            <div class="aside-song-icon">
+                                <a href="#play-bar-2">
+                                    <div class="aside-song-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a> 
+                            </div>
+        
+                            <div class="aside-song-info">
+                                <h4>Starboy</h3>
+                                <h5>The Weeknd</h4>
+                            </div>
+                        </div>
+    
+                        <div class="aside-section-thumbnail-right">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+    
+                    <div class="aside-song flex-box-between">
+    
+                        <div class="aside-song-thumbnail-left">
+                            <div class="aside-song-rank">
+                                <h4>08</h4>
+                            </div>
+        
+                            <div class="aside-song-icon">
+                                <a href="#play-bar-2">
+                                    <div class="aside-song-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a> 
+                            </div>
+        
+                            <div class="aside-song-info">
+                                <h4>Starboy</h3>
+                                <h5>The Weeknd</h4>
+                            </div>
+                        </div>
+    
+                        <div class="aside-section-thumbnail-right">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+    
+                    <div class="aside-song flex-box-between">
+    
+                        <div class="aside-song-thumbnail-left">
+                            <div class="aside-song-rank">
+                                <h4>09</h4>
+                            </div>
+        
+                            <div class="aside-song-icon">
+                                <a href="#play-bar-2">
+                                    <div class="aside-song-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a> 
+                            </div>
+    
+                            <div class="aside-song-info">
+                                <h4>Starboy</h3>
+                                <h5>The Weeknd</h4>
+                            </div>
+                        </div>
+    
+                        <div class="aside-section-thumbnail-right">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+    
+                    <div class="aside-song flex-box-between">
+    
+                        <div class="aside-song-thumbnail-left">
+                            <div class="aside-song-rank">
+                                <h4>10</h4>
+                            </div>
+        
+                            <div class="aside-song-icon">
+                                <a href="#play-bar-2">
+                                    <div class="aside-song-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a> 
+                            </div>
+        
+                            <div class="aside-song-info">
+                                <h4>Starboy</h3>
+                                <h5>The Weeknd</h4>
+                            </div>
+                        </div>
+    
+                        <div class="aside-section-thumbnail-right">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </body>
+</html>

@@ -7,7 +7,7 @@ body{
 }
 
 #site-logo{
-    background-image:url("media/site-logo.svg");
+    background-image:url("../media/site-logo.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ body{
     height: 80px;
     width: 80px;
     margin-top: 25px;
-    background-image: url('media/Photo.jpg');
+    background-image: url('../media/Photo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,7 @@ main{
     left:0px;
     height: 300px;
     width:500px;
-    background-image: url('media/carousel1.png');
+    background-image: url('../media/carousel1.png');
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -163,10 +163,10 @@ main{
     display: inline-block;
     position: absolute;
     top: -25px;
-    left: 225px;    
+    left: 225px;
     height: 350px;
     width:500px;
-    background-image: url('media/carousel2.jpg');
+    background-image: url('../media/carousel2.jpg');
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -181,7 +181,7 @@ main{
     left:500px;
     height: 300px;
     width:500px;
-    background-image: url('media/carousel3.png');
+    background-image: url('../media/carousel3.png');
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -239,7 +239,7 @@ h3{
 }
 
 .song-thumbnail-2 h3{
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 .song-thumbnail-2 h5{
@@ -250,7 +250,7 @@ h3{
     display: inline-block;
     width: 130px;
     height: 130px;
-    background-image: url('media/song1.jpg');
+    background-image: url('../media/song1.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ h3{
 
 .song-options-popup{
     position: absolute;
-    margin-left: -130px; 
+    margin-left: -130px;
     height:120px;
     width: 150px;
     background-color: white;
@@ -325,27 +325,27 @@ h3{
 }
 
 #ed-sheeran-image{
-    background-image:url("media/ed-sheeran.png");
+    background-image:url("../media/ed-sheeran.png");
 }
 
 #coldplay-image{
-    background-image:url("media/coldplay.jpg");
+    background-image:url("../media/coldplay.jpg");
 }
 
 #zayn-image{
-    background-image:url("media/zayn.jpg");
+    background-image:url("../media/zayn.jpg");
 }
 
 #charlie-puth-image{
-    background-image:url("media/charlie-puth.jpg");
+    background-image:url("../media/charlie-puth.jpg");
 }
 
 #imagine-dragons-image{
-    background-image:url("media/imagine-dragons.png");
+    background-image:url("../media/imagine-dragons.png");
 }
 
 #bruno-mars-image{
-    background-image:url("media/bruno-mars.jpeg");
+    background-image:url("../media/bruno-mars.jpeg");
 }
 
 .artist-hover{
@@ -450,10 +450,10 @@ h3{
 }
 
 #play-bar-song-icon-2{
-    display: inline-block; 
+    display: inline-block;
     height: 70px;
     width:70px;
-    background-image: url('media/song2.jpg');
+    background-image: url('../media/song2.jpg');
     background-position: center;
     background-size: contain;
     margin-top: 15px;
@@ -464,10 +464,10 @@ h3{
 }
 
 #play-bar-song-icon{
-    display: inline-block; 
+    display: inline-block;
     height: 70px;
     width:70px;
-    background-image: url('media/song1.jpg');
+    background-image: url('../media/song1.jpg');
     background-position: center;
     background-size: contain;
     margin-top: 15px;
@@ -576,12 +576,12 @@ aside{
     left: 65% ;
     height: 63% ;
     overflow: scroll;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-aside::-webkit-scrollbar { 
-    display: none; 
+aside::-webkit-scrollbar {
+    display: none;
 }
 
 aside h1{
@@ -607,7 +607,7 @@ aside h2{
 
 .aside-song{
     width: 100% ;
-    height: 80px; 
+    height: 80px;
     margin-top: 30px;
 }
 
@@ -625,10 +625,10 @@ aside h2{
     display: inline-block;
     height: 80px ;
     width: 80px ;
-    background-image: url('media/song2.jpg');
+    background-image: url('../media/song2.jpg');
     background-position: center;
-    background-size: contain;   
-    margin-left: 20px; 
+    background-size: contain;
+    margin-left: 20px;
     box-shadow: 0px 0px 30px -5px black;
 }
 
@@ -679,18 +679,18 @@ aside h2{
 
 .artist-description{
     display: inline-block;
-    margin-left: 50px ; 
+    margin-left: 50px ;
     vertical-align: top;
-    width: 400px ;  
+    width: 400px ;
 }
 
 #coldplay-artist-image{
-    background-image: url('media/coldplay.jpg');
+    background-image: url('../media/coldplay.jpg');
 }
 
 .artist-page-songs{
     color:white;
-    background-color: #0E102C: 
+    background-color: #0E102C:
 }
 
 .play-all-button{
@@ -706,7 +706,7 @@ aside h2{
 
 #song-categories{
     margin-top: 70px;
-    width: 100% ;   
+    width: 100% ;
     height: 180px ;
 }
 
@@ -746,15 +746,15 @@ aside h2{
 }
 
 #category-1{
-    background-image: url('media/party.jpg') ;
+    background-image: url('../media/party.jpg') ;
 }
 
 #category-2{
-    background-image: url('media/electronic.jpg') ;
+    background-image: url('../media/electronic.jpg') ;
 }
 
 #category-3{
-    background-image: url('media/road-trip.jpg') ;
+    background-image: url('../media/road-trip.jpg') ;
 }
 
 .space-above{
